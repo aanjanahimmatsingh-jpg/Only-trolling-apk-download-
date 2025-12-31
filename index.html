@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Trolling Download</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --neon-green: #00ff41;
+            --dark-bg: #000;
+            --insta-color: #e1306c;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            padding: 60px 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--neon-green);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .download-card {
+            background: #111;
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid #222;
+            width: 350px;
+            transition: 0.3s ease;
+        }
+
+        .download-card:hover {
+            border-color: var(--neon-green);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0, 255, 65, 0.1);
+        }
+
+        h2 { 
+            color: #fff; 
+            margin-bottom: 15px; 
+            font-size: 1.5rem;
+        }
+        
+        .version-tag {
+            color: var(--neon-green);
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .features {
+            text-align: left;
+            margin: 20px 0;
+            font-size: 1rem;
+            color: #ccc;
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li { margin-bottom: 12px; display: flex; align-items: center; }
+        .features li i { margin-right: 12px; color: var(--neon-green); }
+
+        /* Buttons */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .v1-btn { background: #222; color: white; border: 1px solid #444; }
+        .v1-btn:hover { background: #333; border-color: #fff; }
+
+        .v2-btn { background: var(--neon-green); color: black; }
+        .v2-btn:hover { background: #00cc33; transform: scale(1.02); }
+
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            border-top: 1px solid #222;
+            width: 100%;
+        }
+
+        .insta-footer {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 12px 25px;
+            border: 1px solid var(--insta-color);
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .insta-footer:hover {
+            background: var(--insta-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ONLY TROLLING DOWNLOAD</h1>
+        <p style="color: #666;">Get Your Prank Tools Here</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="download-card">
+            <span class="version-tag">STABLE BUILD</span>
+            <h2>VERSION 1 - ONLY TROLLING</h2>
+            <ul class="features">
+                <li><i class="fas fa-gamepad"></i> 15 Levels Only</li>
+                <li><i class="fas fa-layer-group"></i> Classic Level Menu</li>
+                <li><i class="fas fa-mobile-alt"></i> Smooth Gameplay</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/11CZe3g3n9b_VD5IX34MS80sb5H8Qy02f/view?usp=drivesdk" target="_blank" class="btn v1-btn">
+                <i class="fas fa-external-link-alt"></i> Download V1
+            </a>
+        </div>
+
+        <div class="download-card">
+            <span class="version-tag">NEW UPDATE</span>
+            <h2 style="color: var(--neon-green);">VERSION 2 - ONLY TROLLING</h2>
+            <ul class="features">
+                <li><i class="fas fa-skull"></i> 100 Nodes (Levels)</li>
+                <li><i class="fas fa-terminal"></i> Hacker UI Theme</li>
+                <li><i class="fas fa-sync"></i> Enhanced Prank Logic</li>
+            </ul>
+            <a href="only_trolling_v2.html" download class="btn v2-btn">
+                <i class="fas fa-download"></i> Download V2
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <a href="https://instagram.com/aanjana6268" target="_blank" class="insta-footer">
+            <i class="fab fa-instagram"></i>
+            <span>aanjana6268</span>
+        </a>
+    </footer>
+
+</body>
+</html>
